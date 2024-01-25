@@ -1,0 +1,41 @@
+A.o: A.cc Player.hh Info.hh Settings.hh Structs.hh Utils.hh State.hh \
+  Action.hh Random.hh Registry.hh
+AIDelta.o: AIDelta.cc Player.hh Info.hh Settings.hh Structs.hh Utils.hh \
+  State.hh Action.hh Random.hh Registry.hh
+AIDemo.o: AIDemo.cc Player.hh Info.hh Settings.hh Structs.hh Utils.hh \
+  State.hh Action.hh Random.hh Registry.hh
+AIEpsilon.o: AIEpsilon.cc Player.hh Info.hh Settings.hh Structs.hh \
+  Utils.hh State.hh Action.hh Random.hh Registry.hh
+AIGamma.o: AIGamma.cc Player.hh Info.hh Settings.hh Structs.hh Utils.hh \
+  State.hh Action.hh Random.hh Registry.hh
+AIJCJS.o: AIJCJS.cc Player.hh Info.hh Settings.hh Structs.hh Utils.hh \
+  State.hh Action.hh Random.hh Registry.hh
+AINull.o: AINull.cc Player.hh Info.hh Settings.hh Structs.hh Utils.hh \
+  State.hh Action.hh Random.hh Registry.hh
+AIOmegaG0.o: AIOmegaG0.cc Player.hh Info.hh Settings.hh Structs.hh \
+  Utils.hh State.hh Action.hh Random.hh Registry.hh
+AISigmaG0.o: AISigmaG0.cc Player.hh Info.hh Settings.hh Structs.hh \
+  Utils.hh State.hh Action.hh Random.hh Registry.hh
+AITest.o: AITest.cc Player.hh Info.hh Settings.hh Structs.hh Utils.hh \
+  State.hh Action.hh Random.hh Registry.hh
+AIalpha.o: AIalpha.cc Player.hh Info.hh Settings.hh Structs.hh Utils.hh \
+  State.hh Action.hh Random.hh Registry.hh
+AIalphaV1.o: AIalphaV1.cc Player.hh Info.hh Settings.hh Structs.hh \
+  Utils.hh State.hh Action.hh Random.hh Registry.hh
+AIbeta.o: AIbeta.cc Player.hh Info.hh Settings.hh Structs.hh Utils.hh \
+  State.hh Action.hh Random.hh Registry.hh
+Action.o: Action.cc Action.hh Structs.hh Utils.hh
+Game.o: Game.cc Game.hh Player.hh Info.hh Settings.hh Structs.hh Utils.hh \
+  State.hh Action.hh Random.hh Registry.hh Board.hh
+Info.o: Info.cc Info.hh Settings.hh Structs.hh Utils.hh State.hh
+Main.o: Main.cc Game.hh Player.hh Info.hh Settings.hh Structs.hh Utils.hh \
+  State.hh Action.hh Random.hh Registry.hh Board.hh
+Player.o: Player.cc Player.hh Info.hh Settings.hh Structs.hh Utils.hh \
+  State.hh Action.hh Random.hh Registry.hh
+Random.o: Random.cc Random.hh Utils.hh
+Registry.o: Registry.cc Registry.hh Utils.hh
+Settings.o: Settings.cc Settings.hh Structs.hh Utils.hh
+State.o: State.cc State.hh Structs.hh Utils.hh
+Structs.o: Structs.cc Structs.hh Utils.hh
+Utils.o: Utils.cc Utils.hh
+prub.o: prub.cc
